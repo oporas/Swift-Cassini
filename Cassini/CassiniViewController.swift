@@ -8,7 +8,8 @@
 
 import UIKit
 
-class CassiniViewController: UIViewController {
+class CassiniViewController: UIViewController
+{
 
     // MARK: - Navigation
 
