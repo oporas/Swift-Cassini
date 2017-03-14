@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		AA252C491E780B11008929FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA252C481E780B11008929FB /* AppDelegate.swift */; };
-		AA252C4B1E780B11008929FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA252C4A1E780B11008929FB /* ViewController.swift */; };
 		AA252C4E1E780B11008929FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA252C4C1E780B11008929FB /* Main.storyboard */; };
 		AA252C501E780B11008929FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA252C4F1E780B11008929FB /* Assets.xcassets */; };
 		AA252C531E780B11008929FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA252C511E780B11008929FB /* LaunchScreen.storyboard */; };
+		AA252C5C1E780D03008929FB /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA252C5B1E780D03008929FB /* ImageViewController.swift */; };
+		AA252C5E1E78100C008929FB /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA252C5D1E78100C008929FB /* DemoURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA252C451E780B11008929FB /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA252C481E780B11008929FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA252C4A1E780B11008929FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA252C4D1E780B11008929FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA252C4F1E780B11008929FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA252C521E780B11008929FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA252C541E780B11008929FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA252C5B1E780D03008929FB /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		AA252C5D1E78100C008929FB /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,22 +56,23 @@
 		AA252C471E780B11008929FB /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				AA252C5A1E780B32008929FB /* not used */,
-				AA252C4A1E780B11008929FB /* ViewController.swift */,
+				AA252C5A1E780B32008929FB /* supporting files */,
 				AA252C4C1E780B11008929FB /* Main.storyboard */,
+				AA252C5B1E780D03008929FB /* ImageViewController.swift */,
+				AA252C5D1E78100C008929FB /* DemoURL.swift */,
 				AA252C541E780B11008929FB /* Info.plist */,
 			);
 			path = Cassini;
 			sourceTree = "<group>";
 		};
-		AA252C5A1E780B32008929FB /* not used */ = {
+		AA252C5A1E780B32008929FB /* supporting files */ = {
 			isa = PBXGroup;
 			children = (
 				AA252C481E780B11008929FB /* AppDelegate.swift */,
 				AA252C4F1E780B11008929FB /* Assets.xcassets */,
 				AA252C511E780B11008929FB /* LaunchScreen.storyboard */,
 			);
-			name = "not used";
+			name = "supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA252C4B1E780B11008929FB /* ViewController.swift in Sources */,
+				AA252C5C1E780D03008929FB /* ImageViewController.swift in Sources */,
 				AA252C491E780B11008929FB /* AppDelegate.swift in Sources */,
+				AA252C5E1E78100C008929FB /* DemoURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
