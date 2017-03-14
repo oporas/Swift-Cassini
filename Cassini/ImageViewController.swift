@@ -10,6 +10,9 @@ import UIKit
 
 class ImageViewController: UIViewController
 {
+    
+    //MARK: model 
+    
     var imageURL: URL? {
         didSet {
             image = nil
@@ -26,11 +29,6 @@ class ImageViewController: UIViewController
                 image = UIImage(data: imageData)
             }
         }
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        imageURL = DemoURL.oispa
     }
     
     override func viewWillAppear(_ animated: Bool) {
