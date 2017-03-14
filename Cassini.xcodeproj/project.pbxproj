@@ -54,14 +54,22 @@
 		AA252C471E780B11008929FB /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				AA252C481E780B11008929FB /* AppDelegate.swift */,
+				AA252C5A1E780B32008929FB /* not used */,
 				AA252C4A1E780B11008929FB /* ViewController.swift */,
 				AA252C4C1E780B11008929FB /* Main.storyboard */,
-				AA252C4F1E780B11008929FB /* Assets.xcassets */,
-				AA252C511E780B11008929FB /* LaunchScreen.storyboard */,
 				AA252C541E780B11008929FB /* Info.plist */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		AA252C5A1E780B32008929FB /* not used */ = {
+			isa = PBXGroup;
+			children = (
+				AA252C481E780B11008929FB /* AppDelegate.swift */,
+				AA252C4F1E780B11008929FB /* Assets.xcassets */,
+				AA252C511E780B11008929FB /* LaunchScreen.storyboard */,
+			);
+			name = "not used";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
